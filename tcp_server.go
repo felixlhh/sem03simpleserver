@@ -37,22 +37,10 @@ func main() {
 						}
 						return // fra for løkke
 					}
-					switch msg := string(buf[:n]); msg {
-  				        case "ping":
-						_, err = c.Write([]byte("pong"))
-					default:
-						_, err = c.Write(buf[:n])
-					}
-					if err != nil {
-						if err != io.EOF {
-							log.Println(err)
-						}
-						return // fra for løkke
-					}
-				dekryptertMelding := mycrypt.Krypter([]rune(string(buf[:n])), mycrypt.ALF_SEM03, len(mycrypt.ALF_SEM03)-4)
+
+					dekryptertMelding := mycrypt.Krypter([]rune(string(buf[:n])), mycrypt.ALF_SEM03, len(mycrypt.ALF_SEM03)-4)
 					log.Println("Dekrypter melding: ", string(dekryptertMelding))
-					msg := string(dekryptertMelding)
-					switch msg {
+					switch msg := string(dekryptertMelding); msg {
   				        case "ping":
 						_, err = c.Write([]byte("pong"))
 					default:
