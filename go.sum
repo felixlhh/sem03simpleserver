@@ -1,2 +1,10 @@
+github.com/felixlhh/funtemps v0.0.0-20230221180431-bed20e19062a h1:Cm7jQPoXmLNW2OI3+XktAJvXTFRfdmOfYmaKzXNumoQ=
+github.com/felixlhh/funtemps v0.0.0-20230221180431-bed20e19062a/go.mod h1:Ilap7DqVVIgCw4Ny8rR2PDdAYvKHBj4R1KKB7uf8q0M=
 github.com/felixlhh/is105sem03 v0.0.0-20230418143729-fc6fab841861 h1:QDZtuV6cCDaCvEALNhW/wCzuH+SXbIOdKU+3fEW0mw0=
 github.com/felixlhh/is105sem03 v0.0.0-20230418143729-fc6fab841861/go.mod h1:fxH7G+mx7f13IOpTZulnDLDoe/sKKHqh6VmfPYq2xHY=
+github.com/felixlhh/is105sem03 v0.0.0-20230420185941-35c902ee95c8 h1:zH8aj5fdomAgm8Dj8MrOP6HPrjJiAeX7z0fURuZka/E=
+github.com/felixlhh/is105sem03 v0.0.0-20230420185941-35c902ee95c8/go.mod h1:fxH7G+mx7f13IOpTZulnDLDoe/sKKHqh6VmfPYq2xHY=
+github.com/felixlhh/is105sem03 v0.0.0-20230424075720-f7e91c4ca5d9 h1:lslvv1Mqe908tqEatUGnAZW8D4BnKlQnu3g7IPkFBvU=
+github.com/felixlhh/is105sem03 v0.0.0-20230424075720-f7e91c4ca5d9/go.mod h1:fxH7G+mx7f13IOpTZulnDLDoe/sKKHqh6VmfPYq2xHY=
+github.com/felixlhh/kjevikConv v0.0.0-20230421063353-80fd1e0853f5 h1:G3KNtPk1feNoTQLceThxCgE7WbaG4OWAraL9YSBa+oU=
+github.com/felixlhh/kjevikConv v0.0.0-20230421063353-80fd1e0853f5/go.mod h1:JtyZOsu3n/57k9gIG8hdT80/iGU5jft4zX69GEKyp7g=
